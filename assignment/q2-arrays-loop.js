@@ -8,9 +8,17 @@ const studentList = ["Johnson", "Christina", "Michael", "Lina", "Larry", "Michel
 
 function printStudentNames(){
     // Add code here
+
+    //for (let student of list) {
+    //    console.log(student);
+    //}
+
+    for (let i = 0; i < studentList.length; i++) {
+        console.log(studentList[studentList])
+    }
 }
 
-printStudentNames();
+printStudentNames(studentList);
 
 // Ignore the code below this line
 module.exports = {
